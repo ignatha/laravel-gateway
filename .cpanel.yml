@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ignaon/serviceauth.ignatha.website/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
