@@ -1,5 +1,5 @@
 ---
 deployment:
-  tasks:
-    - export DEPLOYPATH=/home/ignaon/serviceauth.ignatha.website/
-    - /bin/cp -r * $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/ignaonon/serviceauth.ignatha.website
+        - /bin/cp -r /home/ignaonon/repositories/laravel-gateway/* $DEPLOYPATH
