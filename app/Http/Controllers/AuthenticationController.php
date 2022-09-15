@@ -6,7 +6,7 @@ use App\Services\AuthService;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 
-class AuthController extends Controller
+class AuthenticationController extends Controller
 {
     /**
      * @var \App\Services\AuthService
