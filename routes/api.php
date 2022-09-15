@@ -18,5 +18,5 @@ Route::middleware('auth:jwt')->get('/user', function (Request $request) {
     return Auth::user();
 });
 
-Route::post('/login','AuthenticationController@login')->name('auth.login');
-Route::post('/register','AuthenticationController@register')->name('auth.register');
+Route::post('/login','App\Http\Controllers\AuthenticationController@login')->name('auth.login');
+Route::post('/register','App\Http\Controllers\AuthenticationController@register')->name('auth.register');
