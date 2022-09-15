@@ -17,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:jwt')->get('/user', function (Request $request) {
     return Auth::user();
 });
+
+Route::get('/login','AuthController@login')->name('auth.login');
+Route::get('/register','AuthController@register')->name('auth.register');
